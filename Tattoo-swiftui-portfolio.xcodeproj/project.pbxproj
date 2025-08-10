@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536FCE392E20D35700F68575 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 536FCE382E20D35700F68575 /* GoogleMobileAds */; };
+		536FCE3C2E20D44000F68575 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 536FCE3B2E20D44000F68575 /* Kingfisher */; };
+		53B20AB92E24E21200A6477E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 53B20AB82E24E21200A6477E /* Lottie */; };
+		53B20AC52E2525E800A6477E /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 53B20AC42E2525E800A6477E /* RevenueCat */; };
+		53C55CC42E2AD74D009844CD /* StoreKitConfig.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 53C55CC32E2AD74D009844CD /* StoreKitConfig.storekit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53817FEE2E0E58F9003C12A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53817FD52E0E58F8003C12A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53817FDC2E0E58F8003C12A4;
+			remoteInfo = TattooMe;
+		};
+		53817FF82E0E58F9003C12A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53817FD52E0E58F8003C12A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53817FDC2E0E58F8003C12A4;
+			remoteInfo = TattooMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53817FDD2E0E58F8003C12A4 /* TattooMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TattooMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53817FED2E0E58F9003C12A4 /* TattooMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TattooMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53817FF72E0E58F9003C12A4 /* TattooMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TattooMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C55CC32E2AD74D009844CD /* StoreKitConfig.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKitConfig.storekit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		530444292E1BE13E00ADAB6F /* Exceptions for "TattooMe" folder in "TattooMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 53817FDC2E0E58F8003C12A4 /* TattooMe */;
+		};
+		53B20AA12E24CE3D00A6477E /* Exceptions for "TattooMe" folder in "TattooMeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Domain/Entity/MyTattoo.swift,
+			);
+			target = 53817FEC2E0E58F9003C12A4 /* TattooMeTests */;
+		};
+		53B20AA82E24D87C00A6477E /* Exceptions for "TattooMeTests" folder in "TattooMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Mocks/MocktattooRepositoryImp.swift,
+			);
+			target = 53817FDC2E0E58F8003C12A4 /* TattooMe */;
+		};
+		53B20AA92E24D87C00A6477E /* Exceptions for "TattooMeTests" folder in "TattooMeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Mocks/MocktattooRepositoryImp.swift,
+			);
+			target = 53817FEC2E0E58F9003C12A4 /* TattooMeTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		53817FDF2E0E58F8003C12A4 /* TattooMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				530444292E1BE13E00ADAB6F /* Exceptions for "TattooMe" folder in "TattooMe" target */,
+				53B20AA12E24CE3D00A6477E /* Exceptions for "TattooMe" folder in "TattooMeTests" target */,
+			);
+			path = TattooMe;
+			sourceTree = "<group>";
+		};
+		53817FF02E0E58F9003C12A4 /* TattooMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				53B20AA82E24D87C00A6477E /* Exceptions for "TattooMeTests" folder in "TattooMe" target */,
+				53B20AA92E24D87C00A6477E /* Exceptions for "TattooMeTests" folder in "TattooMeTests" target */,
+			);
+			path = TattooMeTests;
+			sourceTree = "<group>";
+		};
+		53817FFA2E0E58F9003C12A4 /* TattooMeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TattooMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53817FDA2E0E58F8003C12A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B20AB92E24E21200A6477E /* Lottie in Frameworks */,
+				536FCE3C2E20D44000F68575 /* Kingfisher in Frameworks */,
+				53B20AC52E2525E800A6477E /* RevenueCat in Frameworks */,
+				536FCE392E20D35700F68575 /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53817FEA2E0E58F9003C12A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53817FF42E0E58F9003C12A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53817FD42E0E58F8003C12A4 = {
+			isa = PBXGroup;
+			children = (
+				53C55CC32E2AD74D009844CD /* StoreKitConfig.storekit */,
+				53817FDF2E0E58F8003C12A4 /* TattooMe */,
+				53817FF02E0E58F9003C12A4 /* TattooMeTests */,
+				53817FFA2E0E58F9003C12A4 /* TattooMeUITests */,
+				53817FDE2E0E58F8003C12A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53817FDE2E0E58F8003C12A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53817FDD2E0E58F8003C12A4 /* TattooMe.app */,
+				53817FED2E0E58F9003C12A4 /* TattooMeTests.xctest */,
+				53817FF72E0E58F9003C12A4 /* TattooMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53817FDC2E0E58F8003C12A4 /* TattooMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538180012E0E58F9003C12A4 /* Build configuration list for PBXNativeTarget "TattooMe" */;
+			buildPhases = (
+				53817FD92E0E58F8003C12A4 /* Sources */,
+				53817FDA2E0E58F8003C12A4 /* Frameworks */,
+				53817FDB2E0E58F8003C12A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				53817FDF2E0E58F8003C12A4 /* TattooMe */,
+			);
+			name = TattooMe;
+			productName = TattooMe;
+			productReference = 53817FDD2E0E58F8003C12A4 /* TattooMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53817FEC2E0E58F9003C12A4 /* TattooMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538180042E0E58F9003C12A4 /* Build configuration list for PBXNativeTarget "TattooMeTests" */;
+			buildPhases = (
+				53817FE92E0E58F9003C12A4 /* Sources */,
+				53817FEA2E0E58F9003C12A4 /* Frameworks */,
+				53817FEB2E0E58F9003C12A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53817FEF2E0E58F9003C12A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				53817FF02E0E58F9003C12A4 /* TattooMeTests */,
+			);
+			name = TattooMeTests;
+			productName = TattooMeTests;
+			productReference = 53817FED2E0E58F9003C12A4 /* TattooMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53817FF62E0E58F9003C12A4 /* TattooMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538180072E0E58F9003C12A4 /* Build configuration list for PBXNativeTarget "TattooMeUITests" */;
+			buildPhases = (
+				53817FF32E0E58F9003C12A4 /* Sources */,
+				53817FF42E0E58F9003C12A4 /* Frameworks */,
+				53817FF52E0E58F9003C12A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53817FF92E0E58F9003C12A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				53817FFA2E0E58F9003C12A4 /* TattooMeUITests */,
+			);
+			name = TattooMeUITests;
+			productName = TattooMeUITests;
+			productReference = 53817FF72E0E58F9003C12A4 /* TattooMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53817FD52E0E58F8003C12A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					53817FDC2E0E58F8003C12A4 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					53817FEC2E0E58F9003C12A4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 53817FDC2E0E58F8003C12A4;
+					};
+					53817FF62E0E58F9003C12A4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 53817FDC2E0E58F8003C12A4;
+					};
+				};
+			};
+			buildConfigurationList = 53817FD82E0E58F8003C12A4 /* Build configuration list for PBXProject "Tattoo-swiftui-portfolio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53817FD42E0E58F8003C12A4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				536FCE372E20D35700F68575 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				536FCE3A2E20D44000F68575 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				53B20AAA2E24DE6300A6477E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				53B20AC32E2525E800A6477E /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 53817FDE2E0E58F8003C12A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53817FDC2E0E58F8003C12A4 /* TattooMe */,
+				53817FEC2E0E58F9003C12A4 /* TattooMeTests */,
+				53817FF62E0E58F9003C12A4 /* TattooMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53817FDB2E0E58F8003C12A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C55CC42E2AD74D009844CD /* StoreKitConfig.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53817FEB2E0E58F9003C12A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53817FF52E0E58F9003C12A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53817FD92E0E58F8003C12A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53817FE92E0E58F9003C12A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53817FF32E0E58F9003C12A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53817FEF2E0E58F9003C12A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53817FDC2E0E58F8003C12A4 /* TattooMe */;
+			targetProxy = 53817FEE2E0E58F9003C12A4 /* PBXContainerItemProxy */;
+		};
+		53817FF92E0E58F9003C12A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53817FDC2E0E58F8003C12A4 /* TattooMe */;
+			targetProxy = 53817FF82E0E58F9003C12A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53817FFF2E0E58F9003C12A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6J5NHXG32W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		538180002E0E58F9003C12A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6J5NHXG32W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		538180022E0E58F9003C12A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES[sdk=*]" = "AppIcon 1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TattooMe/TattooMe.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6J5NHXG32W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TattooMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TattooMe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This lets you save your tattoo designs to your photo library for easy access later.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library so you can save your tattoo designs to your device for future reference and inspiration.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to show you more relevant ads and offers based on your interests, which helps support the app and improve your experience.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aiTattooGenerator.TattooMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		538180032E0E58F9003C12A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				"ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES[sdk=*]" = "AppIcon 1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TattooMe/TattooMe.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6J5NHXG32W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TattooMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TattooMe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This lets you save your tattoo designs to your photo library for easy access later.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library so you can save your tattoo designs to your device for future reference and inspiration.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to show you more relevant ads and offers based on your interests, which helps support the app and improve your experience.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aiTattooGenerator.TattooMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		538180052E0E58F9003C12A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6J5NHXG32W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aiTattooGenerator.TattooMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TattooMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TattooMe";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		538180062E0E58F9003C12A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6J5NHXG32W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aiTattooGenerator.TattooMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TattooMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TattooMe";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		538180082E0E58F9003C12A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6J5NHXG32W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aiTattooGenerator.TattooMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = TattooMe;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		538180092E0E58F9003C12A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6J5NHXG32W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aiTattooGenerator.TattooMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = TattooMe;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53817FD82E0E58F8003C12A4 /* Build configuration list for PBXProject "Tattoo-swiftui-portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53817FFF2E0E58F9003C12A4 /* Debug */,
+				538180002E0E58F9003C12A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538180012E0E58F9003C12A4 /* Build configuration list for PBXNativeTarget "TattooMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538180022E0E58F9003C12A4 /* Debug */,
+				538180032E0E58F9003C12A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538180042E0E58F9003C12A4 /* Build configuration list for PBXNativeTarget "TattooMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538180052E0E58F9003C12A4 /* Debug */,
+				538180062E0E58F9003C12A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538180072E0E58F9003C12A4 /* Build configuration list for PBXNativeTarget "TattooMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538180082E0E58F9003C12A4 /* Debug */,
+				538180092E0E58F9003C12A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		536FCE372E20D35700F68575 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+		536FCE3A2E20D44000F68575 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		53B20AAA2E24DE6300A6477E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+		53B20AC32E2525E800A6477E /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.32.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		536FCE382E20D35700F68575 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 536FCE372E20D35700F68575 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		536FCE3B2E20D44000F68575 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 536FCE3A2E20D44000F68575 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		53B20AB82E24E21200A6477E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53B20AAA2E24DE6300A6477E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		53B20AC42E2525E800A6477E /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53B20AC32E2525E800A6477E /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 53817FD52E0E58F8003C12A4 /* Project object */;
+}

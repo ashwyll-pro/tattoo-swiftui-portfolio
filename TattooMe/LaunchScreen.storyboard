@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fgw-RW-Ihp">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_splash" translatesAutoresizingMaskIntoConstraints="NO" id="aQ5-xT-Twz">
+                                        <rect key="frame" x="121.66666666666669" y="258" width="150" height="150"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="aQ5-xT-Twz" firstAttribute="centerY" secondItem="Fgw-RW-Ihp" secondAttribute="centerY" id="Isf-cu-agd"/>
+                                    <constraint firstItem="aQ5-xT-Twz" firstAttribute="centerX" secondItem="Fgw-RW-Ihp" secondAttribute="centerX" id="m4i-GF-3Ov"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Fgw-RW-Ihp" secondAttribute="bottom" id="3r6-3N-XQA"/>
+                            <constraint firstItem="Fgw-RW-Ihp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="6dw-Mt-MeJ"/>
+                            <constraint firstItem="Fgw-RW-Ihp" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="fht-rG-7ef"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Fgw-RW-Ihp" secondAttribute="trailing" id="onM-Ea-K9M"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-28"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_splash" width="150" height="150"/>
+    </resources>
+</document>

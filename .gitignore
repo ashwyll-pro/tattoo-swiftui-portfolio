@@ -1,0 +1,43 @@
+# macOS system files
+.DS_Store
+
+# Xcode build files
+build/
+DerivedData/
+*.xcuserstate
+
+# Xcode workspace/project metadata
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/xcshareddata/IDEWorkspaceChecks.plist
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# SwiftData / Core Data persistent stores
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.store
+*.binary
+*.db
+*.db-wal
+*.db-shm
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Archives & debug logs
+*.xcarchive
+*.log
+
+# Firebase or other secrets (if used)
+GoogleService-Info.plist
+
+# Optional local environment configs
+.env
+.env.*

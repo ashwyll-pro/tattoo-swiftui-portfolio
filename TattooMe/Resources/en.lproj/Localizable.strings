@@ -1,0 +1,198 @@
+//common
+"subscription.pro.button" = "PRO";
+"ok.dismiss_button" = "OK";
+"allow.button" = "Allow";
+"terms_of_use.button" = "Terms of use";
+"privacy_policy.button" = "Privacy policy";
+"error.no_data_found" = "No generated tattoo found";
+"button.cancel" = "Cancel";
+"button.delete" = "Delete";
+"button.share" = "Share";
+"button.tryon" = "Try On Body";
+"button.useprompt" = "Use prompt";
+"button.save" = "Save";
+"button.try_using" = "Try On using:";
+"button.open_camera" = "Camera";
+"button.open_gallery" = "Gallery";
+"button.recreate" = "Recreate";
+"button.more" = "view more";
+"alert.confirmdialog.title" = "Choose an option";
+"button.download" = "Download";
+"button.retry" = "Retry";
+
+//alert
+"alert.loading.title" = "Loading";
+"alert.loading.message" = "Loading .. please wait";
+"alert.error.title" = "Error";
+"alert.error.message" = "Error occurred";
+"alert.success.title" = "Success";
+"alert.failure.title" = "Oops!!";
+"alert.request_permission.title" = "Allow Permission";
+"alert.error_tattoo_saved" = "Error, tattoo image already saved";
+"alert.internet_connection.error" = "Check your internet connection and try again";
+
+//on boarding view
+"onboarding.generate_ai_tattoos.title" = "Generate & Try AI Tattoos";
+"onboarding.generate_ai_tattoos.description" = "Generate unique tattoo designs instantly using just a text prompt and try on your body with AR preview.";
+
+"onboarding.browse_styles.title" = "Browse Tattoo Styles";
+"onboarding.browse_styles.description" = "Explore a wide range of tattoo styles and find your perfect match.";
+
+"onboarding.save_and_organize.title" = "Discover 1000+ tattoo designs";
+"onboarding.save_and_organize.description" = "Discover 1000+ tattoo designs from most common tattoo prompts. Bookmark and organize your favorites.";
+
+//dashboard view
+"dashboard.tattoo_styles.title" = "Tattoo Styles";
+"dashboard.select_style.label" = "Select Style";
+
+//home view
+"home.create" = "Create";
+"home.discover" = "Discover";
+"home.mytattoo" = "My Tattoos";
+"home.settings" = "Settings";
+
+// View: Tattoo Generation
+"tattoo_generation.style.label" = "%@ style"; // Label showing tattoo style name followed by the word 'style'
+"tattoo_generation.suggestions.button" = "Suggestions";
+"tattoo_generation.generate_button" = "Generate Tattoo";
+"tattoo_generation.description.toast" = "Describe your tattoo idea ...";
+"tattoo_generation.textfield.hint" = "Create a Tattoo Of...";
+"tattoo_generation.textfield.title" = "Describe your tattoo idea here";
+
+//processing tattoo
+"processing_tattoo.title" = "My Tattoo";
+"alert.generating_tattoo" = "Generating tattoo...\nPlease wait";
+"alert.invalid_prompt" = "Invalid prompt, please retry again";
+"alert.request_permission.photo_save" = "Grant permission to save the photo to your device.";
+"alert.success.tattoo_saved" = "Tattoo saved successfully";
+"alert.request_permission.save_photo" = "Grant permission to save the photo to your device.";
+"tattoo.saving" = "Saving...";
+"tattoo.save" = "Save Tattoo";
+"processing_tattoo.title" = "Results";
+
+
+//daily limit reached 
+"alert.generation_limit.title" = "Daily Limit Reached";
+"alert.generation_limit.message" = "You've reached your daily tattoo generation limit. Try again tomorrow or upgrade for unlimited access.";
+"alert.generation_limit.button.upgrade" = "Upgrade";
+"alert.generation_limit.button.try_tomorrow" = "Try Tomorrow";
+
+//premium subscription
+"pro_access.remove_daily_limit" = "Remove daily limit";
+"pro_access.no_ads" = "Use app without ads";
+"pro_access.unlimited_tattoo_creation" = "Unlimited tattoo creation";
+"pro_access.fast_processing" = "Fast processing";
+"premium.restore" = "Restore";
+"premium.get_pro_access" = "GET PRO ACCESS";
+"premium.auto_renewal.label" = "Auto - renewable, cancel any time";
+"button.loading" = "Loading ...";
+"button.continue" = "Continue";
+
+//limited offer
+"limitedoffer.unlock_offer" = "Claim Offer Now";
+"limitedoffer.exclusive_deal" = "Exclusive deal";
+"limitedoffer.claim_offer_with_percentage" = "Claim your %d%% OFF NOW";
+"limitedoffer.claim_offer_now" = "Claim your OFFER NOW";
+"limitedoffer.billed_annually" = "Billed annually at %@";
+
+//gallery (my tattoo view)
+"mytattoos.my_tattoos.title" = "My Tattoos";
+
+
+//Try on localization
+"tryon.title" = "Try On";
+"alert.tryon.error" = "Error, unable to save image";
+"alert.tryon.success" = "Tattoo saved successfully";
+
+//discover
+"discover.title" = "Discover";
+"discover.downloading" = "downloading... please wait";
+
+//internet connection
+"internet_connection.title" = "No Internet Connection";
+"internet_connection.subtitle" = "Oops! Please check your internet connection and try again.";
+
+//subscription or adpopup view
+"subscription_or_adpopup.title" = "Just one step before you continue";
+"subscription_or_adpopup.subtitle" = "Get unlimited access with PRO, or watch an ad to continue.";
+"subscription_or_adpopup.watch_an_ad" = "Watch an Ad";
+"subscription_or_adpopup.remove_limits" = "REMOVE LIMITS";
+
+//tattoo styles
+"tattoo_style.american_traditional.name" = "American Traditional";
+"tattoo_style.american_traditional.description" = "Illustrated in classic American traditional tattoo style with bold, thick black outlines, flat and vibrant colors such as red, yellow, green, and blue, simplified shapes, minimal shading, and a strong 2D iconic design. Clean white background.";
+
+"tattoo_style.neo_traditional.name" = "Neo-Traditional";
+"tattoo_style.neo_traditional.description" = "Rendered in neo-traditional tattoo style with bold outlines, rich shading, and a vibrant, modern color palette. Incorporates fine details and smooth gradients while maintaining a stylized look. Use dynamic line weight, elegant composition, and deep shadows to add depth. The design should blend classic tattoo principles with illustrative flair. Clean white background.";
+
+"tattoo_style.irezumi.name" = "Japanese (Irezumi)";
+"tattoo_style.irezumi.description" = "In traditional Japanese Irezumi tattoo style: use a stylized composition with strong black outlines, flat color fills, and intricate patterns. Incorporate classic Japanese motifs such as swirling wind bars, crashing water waves, peonies, chrysanthemums, dragons, koi fish, or cherry blossoms. The color palette should feature deep reds, muted greens, indigo blues, and gold tones with minimal gradients. Emphasize balance, movement, and symbolic storytelling throughout the design. Display the entire artwork on a clean white background.";
+
+"tattoo_style.tribal.name" = "Tribal";
+"tattoo_style.tribal.description" = "Designed in tribal tattoo style: composed entirely of thick black lines, sharp curves, and symmetrical or flowing patterns. Inspired by Polynesian, Maori, or Samoan tribal art. The artwork should be bold, symbolic, and minimalist with no shading or color—just solid black ink. Maintain a strong sense of visual rhythm and balance. Present the full design on a clean white background.";
+
+"tattoo_style.blackwork.name" = "Blackwork";
+"tattoo_style.blackwork.description" = "In Blackwork tattoo style: use heavy black ink, solid fills, and bold geometric or abstract shapes. Incorporate high contrast between negative space and pure black areas. Avoid color and gradients entirely. The design may include symbolic elements, ornamental patterns, or surreal compositions, all in a dark, graphic aesthetic. Focus on sharp contrast, dramatic shapes, and minimalist or abstract storytelling. Present the entire artwork on a clean white background.";
+
+"tattoo_style.realism.name" = "Realism";
+"tattoo_style.realism.description" = "In realism tattoo style: create a photo-realistic composition with intricate detail, smooth shading, and true-to-life textures. Use fine gradients and subtle light-to-dark transitions to create depth and volume. Avoid outlines and stylization—focus on accuracy and naturalism. The subject should appear dimensional and expressive, resembling a high-quality full-color portrait. Present the full design on a clean white background.";
+
+"tattoo_style.surrealism.name" = "Surrealism";
+"tattoo_style.surrealism.description" = "In surrealism tattoo style: combine realistic details with fantastical, dreamlike, or irrational elements. Use imaginative juxtapositions, symbolic metaphors, and fluid forms that defy logic. Incorporate detailed shading and soft gradients to create depth, atmosphere, and visual intrigue. The design should evoke mystery, wonder, or introspection through a mix of realism and abstraction. Present the entire composition on a clean white background.";
+
+"tattoo_style.trash_polka.name" = "Trash Polka";
+"tattoo_style.trash_polka.description" = "In Trash Polka tattoo style: use a mix of realistic elements (e.g., portraits, anatomy, nature) combined with abstract shapes, ink splatters, smudges, brush strokes, and bold graphic text. Limit the color palette to stark black and deep red, with occasional use of white space for contrast. Use layered composition with chaotic, asymmetrical balance. Combine photo-realistic details with raw, deconstructed visual fragments. Present the design on a clean white background.";
+
+"tattoo_style.portrait.name" = "Portrait";
+"tattoo_style.portrait.description" = "In portrait tattoo style: rendered with realistic detail and smooth shading, emphasizing depth and lifelike textures with subtle gradients, avoiding harsh outlines for a soft and natural appearance. The artwork should appear dimensional and expressive, presented on a clean white background.";
+
+"tattoo_style.watercolor.name" = "Watercolor";
+"tattoo_style.watercolor.description" = "In watercolor tattoo style: characterized by soft, flowing brush strokes, vivid color splashes, and subtle gradients that mimic the look of watercolor paintings. Use bright, translucent colors with gentle blending and minimal outlines. The design should feel light, dynamic, and painterly, presented on a clean white background.";
+
+"tattoo_style.minimalist.name" = "Minimalist";
+"tattoo_style.minimalist.description" = "In minimalist tattoo style: characterized by clean, thin lines, minimal detail, and lots of negative space. Use simple geometric or abstract forms with precise and deliberate strokes. Avoid shading or color fills, focusing on clarity and simplicity. Present the design on a clean white background.";
+
+"tattoo_style.fine_line.name" = "Fine Line";
+"tattoo_style.fine_line.description" = "In fine line tattoo style: characterized by thin, crisp lines with minimal shading or color. Emphasize detail and precision using smooth, continuous strokes. The design should appear elegant, refined, and lightweight, maintaining simplicity and clarity. Present the artwork on a clean white background.";
+
+"tattoo_style.illustrative_sketch.name" = "Sketch / Illustrative";
+"tattoo_style.illustrative_sketch.description" = "In rough sketch tattoo style: characterized by coarse, uneven, and textured black linework with visible pencil or ink strokes. Use varied line weights, crosshatching, and loose shading without any color fills. The design should feel spontaneous, unpolished, and organic, resembling a hand-drawn sketch. Present the artwork on a clean white background.";
+
+"tattoo_style.geometric.name" = "Geometric";
+"tattoo_style.geometric.description" = "In geometric tattoo style: characterized by clean, sharp black lines, repeated shapes, and symmetrical patterns. Use circles, triangles, polygons, and other geometric elements to create a harmonious and abstract composition. No color or shading—pure black linework only. Present the design on a clean white background.";
+
+"tattoo_style.dotwork.name" = "Dotwork (Pointillism)";
+"tattoo_style.dotwork.description" = "In dotwork (pointillism) tattoo style: created entirely with fine black dots varying in density to produce shading, gradients, and texture. Emphasize meticulous detail and smooth transitions without using lines or color. The design should feel delicate, textured, and dimensional. Present the artwork on a clean white background.";
+
+"tattoo_style.abstract.name" = "Abstract";
+"tattoo_style.abstract.description" = "In abstract tattoo style: characterized by freeform lines, shapes, and patterns without literal or realistic representation. Use bold black linework and areas of solid black with varied textures and negative space. Avoid color and detailed realism. The design should feel spontaneous, dynamic, and open to interpretation. Present the artwork on a clean white background.";
+
+"tattoo_style.biomechanical.name" = "Biomechanical";
+"tattoo_style.biomechanical.description" = "In biomechanical tattoo style: characterized by highly detailed black linework combining mechanical parts like gears, pistons, and tubes with organic shapes such as muscles and bones. Use fine shading and smooth gradients to create depth and a three-dimensional effect. No color; focus on black and gray tones. The design should evoke a seamless blend of technology and anatomy, presented on a clean white background.";
+
+"tattoo_style.glitch_pixel.name" = "Glitch / Pixel";
+"tattoo_style.glitch_pixel.description" = "In glitch/pixel tattoo style: characterized by broken lines, pixel blocks, and visual noise effects that mimic digital glitches and pixelation. Use sharp edges, layered fragments, and deliberate distortions to create a sense of motion and chaos. Primarily black ink with optional minimal color accents (such as red or blue pixels). The design should feel tech-inspired and abstract, presented on a clean white background.";
+
+"tattoo_style.negative_space.name" = "Negative Space";
+"tattoo_style.negative_space.description" = "In negative space tattoo style: characterized by the use of the skin’s natural color as a key part of the design. Employ solid black areas and carefully placed gaps to form images or patterns through contrast. Avoid shading and color; focus on the interplay between black ink and untouched skin. The design should be crisp, minimalist, and visually impactful, presented on a clean white background.";
+
+"tattoo_style.uv_backlight.name" = "UV / Blacklight";
+"tattoo_style.uv_backlight.description" = "In UV/Blacklight tattoo style: focus on designs that incorporate bright fluorescent colors that glow under ultraviolet light, typically using neon blues, greens, pinks, and purples. Combine sharp black outlines with glowing highlights and abstract shapes or detailed imagery. The design should appear vivid and dynamic under blacklight but maintain clarity and contrast under normal light. Present the artwork on a clean white background.";
+
+"tattoo_style.chicano.name" = "Chicano";
+"tattoo_style.chicano.description" = "In Chicano tattoo style: rendered in black and gray with smooth shading and fine linework. Incorporate classic elements like religious iconography (e.g., roses, crosses, Virgen Mary), script lettering, lowrider culture motifs, and portraits with expressive eyes. Emphasize soft gradients, detailed realism, and emotional depth. The design should be balanced and visually striking, presented on a clean white background.";
+
+"tattoo_style.arabic_caligraphy.name" = "Arabic Calligraphy";
+"tattoo_style.arabic_caligraphy.description" = "In Arabic calligraphy tattoo style: use traditional script styles such as Thuluth, Diwani, Kufic, or Naskh. Emphasize flowing, ornamental lines with artistic flourishes and balanced composition. Rendered in bold black ink with smooth curves and minimal modern distortion. The design should evoke sophistication, spirituality, and cultural authenticity. Present the artwork on a clean white background.";
+
+"tattoo_style.thai_sak_yant.name" = "Thai Sak Yant";
+"tattoo_style.thai_sak_yant.description" = "In Thai Sak Yant tattoo style: composed of traditional geometric shapes, yantra grids, and ancient Khmer or Thai script (Khmer lettering). Include symmetrical, repetitive motifs with precise linework and fine details. Rendered entirely in black ink with no shading or color. The design should evoke spirituality, power, and cultural heritage. Present the artwork on a clean white background.";
+
+"tattoo_style.celtic.name" = "Celtic";
+"tattoo_style.celtic.description" = "In Celtic tattoo style: characterized by complex knotwork, spirals, and interlacing lines forming continuous loops. Use bold black lines with precise symmetry and balanced composition. Incorporate traditional motifs like the triquetra, shamrocks, or Celtic crosses. No shading or color; focus on clean, solid black linework. Present the artwork on a clean white background.";
+
+"tattoo_style.mandala.name" = "Mandala";
+"tattoo_style.mandala.description" = "In mandala tattoo style: composed of intricate geometric shapes and radial symmetry forming concentric circles. Use fine black linework with detailed patterns like petals, dots, and lace-like elements. No shading or color; focus on precision and balance in solid black ink. Present the artwork on a clean white background.";
+
+
+
